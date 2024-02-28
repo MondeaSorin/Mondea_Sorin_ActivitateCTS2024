@@ -1,6 +1,4 @@
-package Module.Seminar1.Classes.Animal;
-
-import Module.Seminar1.Classes.Animal.Animal;
+package Seminar1.Classes.Animal;
 
 public class ZooKeeper {
     private String name;

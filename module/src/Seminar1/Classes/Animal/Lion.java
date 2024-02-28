@@ -1,4 +1,4 @@
-package Module.Seminar1.Classes.Animal;
+package Seminar1.Classes.Animal;
 
 public class Lion extends Animal {
     public Lion(String name, int age) {

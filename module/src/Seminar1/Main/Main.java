@@ -1,10 +1,10 @@
-package Module.Seminar1.Main;
+package Seminar1.Main;
 
-import Module.Seminar1.Classes.Animal.Animal;
-import Module.Seminar1.Classes.Animal.Lion;
-import Module.Seminar1.Classes.Animal.Zebra;
-import Module.Seminar1.Classes.Animal.ZooKeeper;
-import Module.Seminar1.Classes.Zoo.Zoo;
+import Seminar1.Classes.Animal.Animal;
+import Seminar1.Classes.Animal.Lion;
+import Seminar1.Classes.Animal.Zebra;
+import Seminar1.Classes.Animal.ZooKeeper;
+import Seminar1.Classes.Zoo.Zoo;
 
 import java.util.HashMap;
 import java.util.Map;

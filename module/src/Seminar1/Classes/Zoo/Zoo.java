@@ -1,7 +1,7 @@
-package Module.Seminar1.Classes.Zoo;
+package Seminar1.Classes.Zoo;
 
-import Module.Seminar1.Classes.Animal.Animal;
-import Module.Seminar1.Classes.Animal.ZooKeeper;
+import Seminar1.Classes.Animal.Animal;
+import Seminar1.Classes.Animal.ZooKeeper;
 
 import java.util.Map;
 

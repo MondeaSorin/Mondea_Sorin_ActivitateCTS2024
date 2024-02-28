@@ -1,6 +1,4 @@
-package Module.Seminar1.Classes.Animal;
-
-import Module.Seminar1.Interfaces.I_CanEat;
+package Seminar1.Classes.Animal;
 
 public abstract class Animal {
     protected String name;
