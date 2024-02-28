@@ -1,18 +1,23 @@
 package Seminar2.Main;
 
+import Seminar2.Classes.Aplicanti.Angajat;
+import Seminar2.Classes.Aplicanti.Interfaces.Aplicant;
+import Seminar2.Classes.Readers.AngajatReader;
+import Seminar2.Classes.Readers.Interfaces.AplicantReader;
+
 import java.io.FileNotFoundException;
 import java.util.List;
 
-import cts.s02.principii_clean_code.clase.Angajat;
-import cts.s02.principii_clean_code.clase.Utils;
 
 public class Program {
 
 	public static void main(String[] args) {
-		List<Angajat> listaAngajati;
+		List<Aplicant> listaAngajati;
+		AplicantReader angajatReader = new AngajatReader("angajati.txt");
+
 		try {
-			listaAngajati = Utils.readAngajati("angajati.txt");
-			for(Angajat angajat:listaAngajati)
+			listaAngajati = angajatReader.read();
+			for(Aplicant angajat:listaAngajati)
 				System.out.println(angajat.toString());
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
